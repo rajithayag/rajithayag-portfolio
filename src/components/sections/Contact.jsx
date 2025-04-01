@@ -48,7 +48,7 @@ export const Contact = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-1 mt-20">
-                <a href="www.linkedin.com/in/rajithayag" target="_blank" rel="nofollow">
+                <a href="https://www.linkedin.com/in/rajithayag/" target="_blank" rel="nofollow">
                     <img className="w-15 h-auto block mx-auto relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" src="https://rajithayag.github.io/rajithayag-portfolio/images/linkdin.png" alt="LinkedIn-Profile" title="LinkedIn - Rajitha Gunasekara" />
                     </a>
                 </div>
