@@ -51,7 +51,7 @@ export const About = () => {
                 
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <img className="w-80 h-auto block mx-auto relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" src="/images/rj.png" alt="Rajitha-Gunasekara" title="Rajitha Gunasekara"/>
+                    <img className="w-80 h-auto block mx-auto relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" src={`${import.meta.env.BASE_URL}images/rj.png)`} alt="Rajitha-Gunasekara" title="Rajitha Gunasekara"/>
                     
                     <p className="text-gray-300 mt-14 mb-2 text-justify">
                         Adaptable and detail-oriented professional with a proactive, solutions-driven mindset. A collaborative team
