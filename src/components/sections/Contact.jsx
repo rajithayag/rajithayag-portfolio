@@ -46,6 +46,13 @@ export const Contact = () => {
                         <button type="submit" className="w-full bg-gradient-to-r from-green-500 to-blue-600 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] hover:bg-blue-500/10">Send</button>
                     </form>
                 </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-1 mt-20">
+                <a href="https://www.credly.com/badges/a3dd4983-6252-4c1c-b992-decd328677f9/public_url" target="_blank" rel="nofollow">
+                    <img className="w-15 h-auto block mx-auto relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" src="rajithayag-portfolio/images/linkdin.png" alt="LinkedIn-Profile" title="LinkedIn - Rajitha Gunasekara" />
+                    </a>
+                </div>
+
             </RevealOnScroll>
         </section>
     );
