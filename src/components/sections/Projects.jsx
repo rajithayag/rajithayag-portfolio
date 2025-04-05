@@ -10,7 +10,7 @@ export const Projects = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2] transition">
-                            <h3 className="text-xl font-bold mb-2"> Baleen.maiglobetravels.com </h3>
+                            <h3 className="text-xl font-bold mb-2"> Baleen Cloud ERP </h3>
                             <p className="text-gray-400 mb-4 text-justify">Baleen is a custom-built web platform designed to enhance the travel booking experience for Mai Globe Travels. Engineered with scalability, performance, and user experience in mind, the platform integrates modern web technologies to streamline tour management, customer interactions, and operational efficiency.</p>
                             <div className="flex flex-wrap gap-2 mb-4"> 
                                 {["Laravel Framework", "PHP", "HTML", "JavaScript", "CSS", "Bootstrap", "OVH"].map((tech,key) => (
@@ -25,7 +25,7 @@ export const Projects = () => {
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2] transition">
-                            <h3 className="text-xl font-bold mb-2"> Maiglobetravels.com </h3>
+                            <h3 className="text-xl font-bold mb-2"> Corporate website of Mai Globe Travels </h3>
                             <p className="text-gray-400 mb-4 text-justify">The Mai Globe Travels website is a dynamic, user-friendly travel booking platform designed to facilitate seamless trip planning and enable inquiries for tailor-made tour proposals. Built with modern web technologies, the website ensures a fast, responsive, and secure browsing experience across all devices.</p>
                             <div className="flex flex-wrap gap-2 mb-4"> 
                                 {["Laravel Framework", "PHP", "HTML", "JavaScript", "CSS", "Bootstrap", "OVH"].map((tech,key) => (
@@ -40,7 +40,7 @@ export const Projects = () => {
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2] transition">
-                            <h3 className="text-xl font-bold mb-2"> Sayurahouse.com </h3>
+                            <h3 className="text-xl font-bold mb-2"> Website of Sayoura House Boutique Hotel </h3>
                             <p className="text-gray-400 mb-4 text-justify">The Sayura House website is a modern, user-friendly hospitality platform designed to offer a seamless booking experience and comprehensive insights into the property's offerings. Built on WordPress and integrated with the Little Hotelier API, the site ensures high performance, security, and responsiveness across all devices.</p>
                             <div className="flex flex-wrap gap-2 mb-4"> 
                                 {["WordPress", "HTML", "JavaScript", "CSS", "OVH", "Little Hotelier"].map((tech,key) => (
@@ -55,7 +55,7 @@ export const Projects = () => {
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2] transition">
-                            <h3 className="text-xl font-bold mb-2"> Poke65.com </h3>
+                            <h3 className="text-xl font-bold mb-2"> Website of Poke 65 Restaurant </h3>
                             <p className="text-gray-400 mb-4 text-justify">Poke65.com is a modern, high-performance food ordering platform designed to deliver a seamless user experience for browsing menus and placing orders. Built on WordPress, the website ensures optimal speed, security, and responsiveness across all devices.</p>
                             <div className="flex flex-wrap gap-2 mb-4"> 
                                 {["WordPress", "HTML", "JavaScript", "CSS", "OVH", "PayPal"].map((tech,key) => (
@@ -70,7 +70,7 @@ export const Projects = () => {
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2] transition">
-                            <h3 className="text-xl font-bold mb-2"> Latrattoria65.com </h3>
+                            <h3 className="text-xl font-bold mb-2"> Website of Latrattoria 65 Italian Restaurant </h3>
                             <p className="text-gray-400 mb-4 text-justify">Latrattoria65.com is a modern, user-friendly restaurant platform designed to provide a seamless experience for browsing menus and placing online orders. Built on WordPress, the website ensures an engaging and efficient experience across all devices.</p>
                             <div className="flex flex-wrap gap-2 mb-4"> 
                                 {["WordPress", "HTML", "JavaScript", "CSS", "OVH", "PayPal"].map((tech,key) => (
@@ -85,7 +85,7 @@ export const Projects = () => {
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2] transition">
-                            <h3 className="text-xl font-bold mb-2"> Authenticlanka.com </h3>
+                            <h3 className="text-xl font-bold mb-2"> Website of Authentic Lanka </h3>
                             <p className="text-gray-400 mb-4 text-justify">Authenticlanka.com is a modern, user-centric platform designed to showcase and promote authentic Sri Lankan spices and products. The website offers an intuitive browsing experience for discovering products and making secure online purchases. Built on WordPress, the site ensures optimal performance, security, and responsiveness across all devices.</p>
                             <div className="flex flex-wrap gap-2 mb-4"> 
                                 {["WordPress", "HTML", "JavaScript", "CSS", "OVH", "PayPal"].map((tech,key) => (
