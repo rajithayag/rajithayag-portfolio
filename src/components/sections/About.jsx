@@ -147,8 +147,7 @@ export const About = () => {
                         <div className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
                             <h4 className="font-semibold text-justify">IT Project Manager at Mai Globe Travels (Pvt) Ltd. - Colombo, Sri Lanka  (Mar 2015 - Jan 2025)</h4>
                             <ul className="text-sm italic list-disc list-inside text-cyan-400 space-y-2 text-justify">
-                                <li>Managed all software and web-related project implementation and execution</li>
-                                <li>Managed and developed the Corporate website & the ERP system</li>
+                                <li>Managed and assisted in the development of the corporate website of Mai Globe Travels, Baleen cloud ERP software, Sayura House boutique hotel website, the two restaurant websites (Poke 65 and Latrattoria 65), the Authentic Lanka website, and Mai Globe Travels internet payment gateway</li>
                                 <li>Conducted business analysis, market and competitor research reporting</li>
                                 <li>Conducted staff training on the ERP system</li>
                                 <li>Tracked customer inquiries & feedback using HubSpot CRM</li>
@@ -157,6 +156,7 @@ export const About = () => {
                         <div className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
                             <h4 className="font-semibold text-justify">eMarketing Executive at Mai Globe Travels (Pvt) Ltd. - Colombo, Sri Lanka (Mar 2013 - Feb 2015)</h4>
                             <ul className="text-sm italic list-disc list-inside text-cyan-400 space-y-2 text-justify">
+                                <li>Developed and maintained the corporate website of Mai Globe Travels</li>
                                 <li>Developed communication supports such as blog posts, social media posts, corporate website content, newsletters, articles, and press releases</li>
                                 <li>Conducted market research and data analysis reports</li>
                                 <li>Creative content writing</li>
