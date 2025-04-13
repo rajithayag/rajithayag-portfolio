@@ -40,7 +40,7 @@ export const Projects = () => {
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2] transition">
-                            <h3 className="text-xl font-bold mb-2"> Sayoura House </h3>
+                            <h3 className="text-xl font-bold mb-2"> Sayura House </h3>
                             <p className="text-gray-400 mb-4 text-justify">The Sayura House website is a modern, user-friendly hospitality platform designed to offer a seamless booking experience and comprehensive insights into the property's offerings. Built on WordPress and integrated with the Little Hotelier API, the site ensures high performance, security, and responsiveness across all devices.</p>
                             <div className="flex flex-wrap gap-2 mb-4"> 
                                 {["WordPress", "HTML", "JavaScript", "CSS", "OVH", "Little Hotelier"].map((tech,key) => (
