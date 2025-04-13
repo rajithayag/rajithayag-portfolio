@@ -27,7 +27,7 @@ export const Home = () => {
                 </div>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-justify"> 
-                Experienced IT Project Manager with over 9 years of expertise in leading and implementing software and web projects, including management and development of an ERP system. 
+                Experienced IT Project Manager with over 10 years of expertise in leading and implementing software and web projects, including management and development of an ERP system. 
                 Additionally, I possess over 6 years of experience as a web and software developer, specializing in agile methodologies.
                 </p>
                 <div className="flex justify-center space-x-4">
