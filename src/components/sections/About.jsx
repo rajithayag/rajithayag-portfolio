@@ -37,14 +37,14 @@ export const About = () => {
         "Database Systems",
     ];
 
-    const projectManagement = [
+    const projectManagementSkills = [
         "Project Management (Agile, Waterfall, and Hybrid)",
         "Requirement Gathering & Prioritization",
         "Market & Competitor Research",
         "High analytical and problem solving skills",
         "Data-Driven Decision-Making",
+        "Experience managing and implementing an ERP system",
         "Strategic Project Planning, Execution and Value delivery",
-        "Experince managing and implementing an ERP system",
         "Risk Management and Mitigation",
         "Resource Allocation and Budgeting",
         "Business & Systems Analysis",
@@ -99,7 +99,7 @@ export const About = () => {
                     <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">Skills</h3>
                         <div className="flex flex-wrap gap-2">
-                            {projectManagement.map((tech,key) => (
+                            {projectManagementSkills.map((tech,key) => (
                                 <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                     {tech}
                                 </span>
