@@ -13,19 +13,21 @@ export const About = () => {
 
     const backendSkills = [
         "PHP",
+        "C#",
         "Java",
-        "MySQL",
+        "SQL",
+        "React",
         "Laravel",
         "WordPress",
     ];
 
-    const softwareTools = [
-        "PhpStorm",
-        "VS Code",
-        "Cloudflare",
-        "FileZilla",
-        "Git and GitHub",
-    ];
+    // const softwareTools = [
+    //     "PhpStorm",
+    //     "VS Code",
+    //     "Cloudflare",
+    //     "FileZilla",
+    //     "Git and GitHub",
+    // ];
 
     const skills = [
         "Software and Web Technologies",
@@ -56,153 +58,148 @@ export const About = () => {
         "Conflict Resolution",
     ];
 
-    const projectManagementSoftwares = [
+    // const projectManagementSoftwares = [
+    //     "Jira",
+    //     "Trello",
+    //     "Asana",
+    //     "Slack",
+    //     "Microsoft Teams",
+    //     "Confluence",
+    //     "Figma",
+    //     "Power BI",
+    //     "HubSpot CRM",
+    // ];
+
+    const businessAnalystSkills = [
+        "Requirements Engineering",
+        "Requirements elicitation",
+        "User stories",
+        "Gap analysis",
+        "Process mapping",
+        "Stakeholder management",
+        "Business case writing",
+        "As-is / To-be analysis",
+        "Data validation",
+        "Agile / Scrum",
+    ];
+
+    // const businessAnalystSoftwares = [
+    //     "Python",
+    //     "SQL",
+    //     "Power BI",
+    //     "SharePoint",
+    //     "Jira",
+    //     "Confluence",
+    // ];
+
+    const serviceDeskAnalystSkills = [
+        "Incident management",
+        "ITSM / ITIL",
+        "Technical troubleshooting",
+        "Knowledge base management",
+        "Service request analysis",
+        "Desktop · Intune · macOS & Network support",
+        "User experience focus",
+    ];
+
+    // const serviceDeskAnalystSoftwares = [
+    //     "BrightPattern",
+    //     "FreshService",
+    //     "Azure Cloud",
+    //     "Koha",
+    //     "SharePoint",
+    // ];
+
+    const softwares = [
+        "Azure Cloud",
+        "SharePoint",
+        "BrightPattern",
+        "FreshService",
+        "Koha",
+        "Python",
+        "SQL",
+        "Power BI",
+        "SharePoint",
         "Jira",
+        "Confluence",
         "Trello",
         "Asana",
         "Slack",
         "Microsoft Teams",
-        "Confluence",
         "Figma",
-        "Power BI",
         "HubSpot CRM",
+        "PhpStorm",
+        "VS Code",
+        "Cloudflare",
+        "FileZilla",
+        "Git and GitHub",
     ];
+
+    const datareporting = [
+        "Python (Pandas)",
+        "SQL",
+        "Power BI",
+        "Excel",
+        "Data validation",
+        "Data profiling",
+        "Dashboard design",
+    ];
+
+    const platformntools = [
+        "SharePoint",
+        "Jira",
+        "Confluence",
+        "Trello",
+        "HubSpot CRM",
+        "Koha",
+        "Asana",
+        "Arion",
+    ];
+
+    const development = [
+        "Python",
+        "C#",
+        "PHP / Laravel",
+        "JavaScript",
+        "React",
+        "SQL",
+        "HTML / CSS",
+        "WordPress",
+    ];
+
+    const deliverymethods = [
+        "Agile / Scrum",
+        "Sprint planning",
+        "Retrospectives",
+        "Stakeholder reporting",
+        "Change management",
+        "ERP implementation",
+    ];
+
 
     return (
     <section id="about" className="min-h-screen flex items-center justify-center py-20">
         
         <div className="max-w-3xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-cyan-600 bg-clip-text text-transparent text-center">
-                About Me</h2>
+                International Experience & Qualificatiions</h2>
         
-            <div className="rounded-xl p-8 border-white/10 border hover:translate-y-1 transition-all">
+            {/* <div className="rounded-xl p-8 border-white/10 border hover:translate-y-1 transition-all">
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <img className="w-80 h-auto block mx-auto relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" src="https://rajithayag.github.io/rajithayag-portfolio/images/rj.png" alt="Rajitha-Gunasekara" title="Rajitha Gunasekara"/>
                     
                     <p className="text-gray-300 mt-2 mb-2 text-justify">
-                        Adaptable and detail-oriented professional with a proactive, solutions-driven mindset. 10+ years of experience in web and software development environment with proven ability to manage end-to-end website projects and lead in-house ERP system development while handling responsibilities independently and collaboratively. 
+                        Adaptable and detail-oriented IT professional with a proactive, solutions-driven mindset. <b>12+</b> years of experience in <b>ICT Business Solution</b> with proven ability to manage end-to-end ICT projects and lead in-house <b>ERP system development</b> while handling responsibilities independently and collaboratively. 
                         A collaborative team player with strong leadership and managerial skills. An excellent communicator with strong analytical and multitasking abilities.
                     </p>
                     
                 </div>
 
-            </div>
+            </div> */}
 
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-
-                {/* Project Management column */}
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-2">&#128104;&#127997;&#8205;&#128188; Project Management</h3>
-                    {/* PM Skills */}
-                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Skills</h3>
-                        <div className="flex flex-wrap gap-2">
-                            {projectManagementSkills.map((tech,key) => (
-                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
-                    {/* PM Software */}
-                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Softwares</h3>
-                        <div className="flex flex-wrap gap-2">
-                            {projectManagementSoftwares.map((tech,key)=>(
-                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            
-                {/* Web Development column */}
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-2">&#127760; Web Development</h3>
-
-                   {/* Skills */}
-                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Skills</h3>
-                        <div className="flex flex-wrap gap-2">
-                            {skills.map((tech,key)=>(
-                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
-                    {/* Software */}
-                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Softwares</h3>
-                        <div className="flex flex-wrap gap-2">
-                            {softwareTools.map((tech,key)=>(
-                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
-                    {/* Frontend */}
-                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Frontend Technologies</h3>
-                        <div className="flex flex-wrap gap-2">
-                            {frontendSkills.map((tech,key) => (
-                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
-                    {/* Backend */}
-                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Backend Technologies</h3>
-                        <div className="flex flex-wrap gap-2">
-                            {backendSkills.map((tech,key)=>(
-                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
-                </div>
-            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                {/* Education column */}
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-4">&#127891; Education</h3>
-                    <ul className="list-disc list-inside text-gray-300 space-y-2 text-justify">
-                        <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
-                            <strong> Master of Applied Information Technology </strong> - Waikato Institute of Technology, Hamilton, New Zealand (Reading)
-                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Project Management, Business Intelligence, Network & Infrastructure, Research in Information Technology</p>
-                        </li>
-                        <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
-                            <strong> Master of Business Administration </strong> - Asia e University, Kuala Lumpur, Malaysia (Graduated 2024)
-                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Entrepreneurship and Innovation, Managerial Economics, International Business, Strategic Management, Accounting and Finance for Managers, Marketing Management, Managing People in Organisations, International Marketing, Enterprise Risk Management, Supply Chain Management, Quality and Change Management</p>
-                        </li>
-                        <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
-                            <strong> Postgraduate Diploma in Professional Marketing </strong> - The Chartered Institute of Marketing, Berkshire, England (Graduated 2021)
-                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Analysis & Evaluation, Strategic Marketing Decisions, Corporate Digital Communications, Global Marketing Decisions, Creating Entrepreneurial Change</p>
-                        </li>
-                        <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
-                            <strong> Comprehensive Master Java Developer </strong> - The Institute of Software Engineering, Colombo, Sri Lanka (Graduated 2017)
-                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Programming Fundamentals & Designs, Object Oriented Programming (OOP), Exception & Error Handling, Collections and Framework, Multi-Threaded Programming, MySQL, UI Design & UX, Database Programming, Software Development, Data Analysing and Reporting, Network Programming, Java Design Patterns, Layered Architecture, Client-Server Application Development, Software Development Principles</p>
-                        </li>
-                        <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
-                            <strong> Executive Diploma in Accounting and Finance </strong> - The Institute of Chartered Accountants, Colombo, Sri Lanka (Graduated 2011)
-                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Financial Reporting, Quantitative Methods, Information Technology and Management Information Systems, Management Principles, Human Resources Management, Financial Analysis and Planing, Marketing Management, Company Law and Taxation</p>
-                        </li>
-                    </ul>
-                </div>
-
                 {/* Work Experience column */}
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-xl font-bold mb-4">&#128104;&#8205;&#128187; Work Experience</h3>
@@ -230,32 +227,249 @@ export const About = () => {
                         <div className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
                             <h4 className="font-semibold text-justify">eMarketing Executive at Mai Globe Travels (Pvt) Ltd. - Colombo, Sri Lanka (Mar 2013 - Feb 2015)</h4>
                             <ul className="text-sm italic list-disc list-inside text-cyan-400 space-y-2 text-justify">
-                                <li>Developed and maintained the corporate website of Mai Globe Travels and blog</li>
+                                <li>Developed and maintained the corporate website and blog of Mai Globe Travels</li>
                                 <li>Developed communication supports such as blog posts, social media posts, corporate website content, newsletters, articles, and press releases</li>
                                 <li>Conducted market research and data analysis reports</li>
                                 <li>Creative content writing</li>
                             </ul>
                         </div>
-                        <div className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
-                            <h4 className="font-semibold text-justify">Marketing Executive at Hayleys Consumer Products Ltd. - Colombo, Sri Lanka (Dec 2011 - Jul 2012)</h4>
-                            {/* <ul className="text-sm italic list-disc list-inside text-cyan-400 space-y-2 text-justify">
-                                <li>Responsible for promoting and selling Fujifilm digital cameras in consumer electronic outlets and institutions</li>
-                                <li>Conducted brand activations in consumer electronic outlets</li>
-                                <li>Organized direct consumer promotions in institutions</li>
-                                <li>Managed In-store merchandising</li>
-                            </ul> */}
+                    </div>
+                </div>
+                {/* Education column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-4">&#127891; Education</h3>
+                    <ul className="list-disc list-inside text-gray-300 space-y-2 text-justify">
+                        <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
+                            <strong> Master of Applied Information Technology </strong> - Waikato Institute of Technology, Hamilton, New Zealand (June 2026)
+                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Project Management for IT, Business Intelligence, Management of Information Systems, Networks & Infrastructure, Security and Forensics, IT Industry Placements, Internships and Projects, Research Project</p>
+                        </li>
+                        <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
+                            <strong> Master of Business Administration </strong> - Asia e University, Kuala Lumpur, Malaysia (Graduated 2024)
+                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Entrepreneurship and Innovation, Managerial Economics, International Business, Strategic Management, Accounting and Finance for Managers, Marketing Management, Managing People in Organisations, International Marketing, Enterprise Risk Management, Supply Chain Management, Quality and Change Management</p>
+                        </li>
+                        {/* <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
+                            <strong> Postgraduate Diploma in Professional Marketing </strong> - The Chartered Institute of Marketing, Berkshire, England (Graduated 2021)
+                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Analysis & Evaluation, Strategic Marketing Decisions, Corporate Digital Communications, Global Marketing Decisions, Creating Entrepreneurial Change</p>
+                        </li> */}
+                        <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
+                            <strong> Comprehensive Master Java Developer </strong> - The Institute of Software Engineering, Colombo, Sri Lanka (Graduated 2017)
+                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Programming Fundamentals & Designs, Object Oriented Programming (OOP), Exception & Error Handling, Collections and Framework, Multi-Threaded Programming, MySQL, UI Design & UX, Database Programming, Software Development, Data Analysing and Reporting, Network Programming, Java Design Patterns, Layered Architecture, Client-Server Application Development, Software Development Principles</p>
+                        </li>
+                        {/* <li className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
+                            <strong> Executive Diploma in Accounting and Finance </strong> - The Institute of Chartered Accountants, Colombo, Sri Lanka (Graduated 2011)
+                            <p className="text-sm italic text-cyan-400"><strong>Coursework:</strong> Financial Reporting, Quantitative Methods, Information Technology and Management Information Systems, Management Principles, Human Resources Management, Financial Analysis and Planing, Marketing Management, Company Law and Taxation</p>
+                        </li> */}
+                    </ul>
+                </div>
+            </div>
+
+            <h2 className="p-6 text-3xl font-bold bg-gradient-to-r from-green-500 to-cyan-600 bg-clip-text text-transparent text-center">
+                Skills & tools</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-3">
+                {/* Project Management column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-2">&#128104;&#127997;&#8205;&#128188; Project Management</h3>
+                    {/* PM Skills */}
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Skills</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {projectManagementSkills.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
                         </div>
-                        <div className="bg-blue-500/10 p-2 rounded-xl border-white/10 border hover:bg-blue-500/20 hover:shadow-[0_3px_8px_rgba(59,130,246,0.2)]">
-                            <h4 className="font-semibold text-justify">Management Trainee at  Maliban Biscuit Manufactories (Pvt) Ltd. - Colombo, Sri Lanka (Mar 2010 - Aug 2011)</h4>
-                            {/* <ul className="text-sm italic list-disc list-inside text-cyan-400 space-y-2 text-justify">
-                                <li>Handled Brands and Marketing executions, Database management, and market surveys</li>
-                                <li>Communicated with the advertising agencies concerning all media strategies</li>
-                                <li>Assisted Marketing Manager in new product development</li>
-                                <li>Monitored competitor activities and pricing</li>
-                                <li>Developed in-store merchandising plans with the Merchandising Manager</li>
-                                <li>Assisted Marketing Manager on product portfolio management</li>
-                                <li>Monitored marketing budget and marketing expenditure</li>
-                            </ul> */}
+                    </div>
+
+                    {/* PM Software */}
+                    {/* <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Softwares</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {projectManagementSoftwares.map((tech,key)=>(
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div> */}
+                </div>
+
+                {/* BA column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-2">&#x1F4C8; Business Analyst</h3>
+                    {/* BA Skills */}
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Skills</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {businessAnalystSkills.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* BA Softwares */}
+                    {/* <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Softwares</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {businessAnalystSoftwares.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div> */}
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                {/* Web Development column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-2">&#127760; Web Development</h3>
+                   {/* Skills */}
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Skills</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {skills.map((tech,key)=>(
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Software */}
+                    {/* <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Softwares</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {softwareTools.map((tech,key)=>(
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div> */}
+
+                    {/* Frontend */}
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Frontend Technologies</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {frontendSkills.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Backend */}
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Backend Technologies</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {backendSkills.map((tech,key)=>(
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* SDA column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-2">&#x1F3A7; Service Desk Analyst</h3>
+                    {/* SDA Skills */}
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Skills</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {serviceDeskAnalystSkills.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* SDA Softwares */}
+                    {/* <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Softwares</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {serviceDeskAnalystSoftwares.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div> */}
+                </div>
+
+                {/* Platforms and Software column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-2">Platforms & Softwares</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {softwares.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* Data and reporting column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-2">Data & Reporting</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {datareporting.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* Platforms & tools column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-2">Platforms & Tools</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {platformntools.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* Development column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-2">Development</h3>  
+                        <div className="flex flex-wrap gap-2">
+                            {development.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* Delivery Methods column */}
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-2">Delivery Methods</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {deliverymethods.map((tech,key) => (
+                                <span key={key} className="bg-blue-500/10 text-cyan-400 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                    {tech}
+                                </span>
+                            ))}
                         </div>
                     </div>
                 </div>
