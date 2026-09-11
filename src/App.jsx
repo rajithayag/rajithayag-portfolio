@@ -1,35 +1,36 @@
 import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import { LoadingScreen } from './components/LoadingScreen';
-import { Navbar } from './components/Navbar';
-import { MobileMenu } from './components/MobileMenu';
-import { Home } from './components/sections/Home';
-import { NZExp } from './components/sections/NZExp';
-import { About } from './components/sections/About';
-import { Projects } from './components/sections/Projects';
-import { Contact } from './components/sections/Contact';
+import Layout from './components/Layout';
+import { Home } from './pages/Home';
+import { NZExp } from './pages/NZExp';
+import { About } from './pages/About';
+import { Projects } from './pages/Projects';
+import { Contact } from './pages/Contact';
 import "./index.css";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
 
-  return ( 
-  <>{!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
-  <div className={`min-h-screen transition-opacity duration-700 ${ isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
-    <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-    <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-    <Home />
-    <NZExp/>
-    <About />
-    <Projects />
-    <Contact />
-  </div>
-  </>
+  return (
+    <>
+      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
+      <div className={`transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
+        <BrowserRouter basename="/rajithayag-portfolio">
+          <Routes>
+            <Route element={<Layout />}>
+              <Route path="/" element={<Home />} />
+              <Route path="/nzexp" element={<NZExp />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </>
   );
-  
-  
-  
 }
 
 export default App;

@@ -1,35 +1,52 @@
-import { useEffect } from "react";
+// src/components/Navbar.jsx
+import { NavLink } from 'react-router-dom';
 
-export const Navbar = ({ menuOpen, setMenuOpen }) => {
+export function Navbar({ menuOpen, setMenuOpen }) {
+  const links = [
+    { to: '/', label: 'Home' },
+    { to: '/nzexp', label: 'My Experience' },
+    { to: '/about', label: 'About Me' },
+    { to: '/projects', label: 'My Projects' },
+    { to: '/contact', label: 'Contact Me' },
+  ];
 
-    useEffect(() => {
-        document.body.style.overflow = menuOpen ? "hidden" : "";
-    }, {menuOpen});
-    
-    return (
-    <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
-        <div className="max-w-5xl mx-auto px-4">
-            <div className="flex justify-between items-center h-16">
-                {/* <a href="#home" className="font-mono text-xl font-bold text-white"> 
-                    {" "}
-                    Rajitha <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">Gunasekara</span>{" "}
-                </a> */}
+  return (
+    <nav className="bg-primary px-6 py-4 flex items-center justify-between sticky top-0 z-40">
+      {/* Desktop links — centered */}
+      <div className="hidden md:flex flex-1 justify-center gap-6 items-center">
+        {links.map((l) => (
+          <NavLink
+            key={l.to}
+            to={l.to}
+            end={l.to === '/'}
+            className={({ isActive }) =>
+              `text-white text-sm font-medium transition ${
+                isActive ? 'opacity-100 underline underline-offset-4' : 'opacity-80 hover:opacity-100'
+              }`
+            }
+          >
+            {l.label}
+          </NavLink>
+        ))}
 
-                {/* Hamburger menu */}
-                <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
-                    &#9776;
-                </div>
+        
+        <a href="https://www.linkedin.com/in/rajithayag/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent text-sm font-medium opacity-80 hover:opacity-100 transition"
+        >
+          LinkedIn
+        </a>
+      </div>
 
-                {/* Desktop Menu */}
-                <div className="hidden md:flex items-center space-x-8">
-                    <a href="#home" className="text-gray-300 hover:text-white transition-colors"> Home </a>
-                    <a href="#nzexp" className="text-gray-300 hover:text-white transition-colors"> Experience </a>
-                    <a href="#projects" className="text-gray-300 hover:text-white transition-colors"> Projects </a>
-                    <a href="#contact" className="text-gray-300 hover:text-white transition-colors"> Get In Touch </a>
-                </div>
-
-            </div>
-        </div>
+      {/* Mobile menu toggle */}
+      <button
+        className="md:hidden ml-auto text-white"
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Toggle menu"
+      >
+        {menuOpen ? '' : '☰'}
+      </button>
     </nav>
-    );
+  );
 }

@@ -1,11 +1,20 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #3c679e;   /* deep blue — nav, headings, links */
+  --color-bg-alt: #d9dedd;    /* soft grey-green — alternating sections */
+  --color-accent: #cb7055;    /* terracotta — buttons, CTAs, highlights */
+  --color-muted: #9b9285;     /* taupe — secondary text, borders */
+  --color-oth-text: #d1d5dc; /* paragraph text */
+  --color-drk-muted: #6b6358; /* darker taupe — for text needing more contrast than --color-muted */
+}
+
 html, body {
 margin: 0;
 padding: 0;
 font-family: "Space Grotesk", sans-serif;
-background: #0a0a00;
-color: #f3f4f6;
+background: #1f2937;
+color: #1f2937;
 }
 
 @layer utilities {
