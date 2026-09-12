@@ -22,7 +22,7 @@ export const Projects = () => {
                                 <h4 className="text-md mb-2 text-drk-muted">Requirements Engineering · End-to-End BA Delivery</h4>
                                 <p className="text-drk-muted mb-4 text-justify">Led the complete BA and PM lifecycle for a custom in-house ERP system — from requirements elicitation and stakeholder workshops through Agile delivery, system design, and staff training. The strongest demonstration of Requirements Engineering at scale, significantly improving internal workflow efficiency and customer response times.</p>
                                 <div className="flex flex-wrap gap-2 mb-4"> 
-                                    {["Requirements Engineering", "Agile/Scrum", "Jira", "Confluence", "HubSpot CRM"].map((tech,key) => (
+                                    {["Requirements Engineering", "Agile/Scrum", "Jira", "Confluence", "HubSpot CRM", "APIs"].map((tech,key) => (
                                         <span key={key} className="bg-primary/10 text-primary py-1 px-3 rounded-full text-sm hover:bg-primary/20 hover:shadow-[0_2px_8px_rgba(60,103,158,0.15)] transition-all">
                                         {tech}
                                         </span>

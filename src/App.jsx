@@ -9,6 +9,7 @@ import { About } from './pages/About';
 import { Projects } from './pages/Projects';
 import { Contact } from './pages/Contact';
 import "./index.css";
+import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div className={`transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
         <BrowserRouter basename="/rajithayag-portfolio">
+          <ScrollToTop />
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
