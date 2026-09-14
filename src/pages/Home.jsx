@@ -19,8 +19,8 @@ export const Home = () => {
         <div className="relative z-10 text-center px-4">
 
             <img
-                className="w-60 h-60 rounded-full object-cover mx-auto mb-6 border-4 border-bg-alt shadow-md"
-                src={`${import.meta.env.BASE_URL}/images/rajitha-portfolio pic.jpeg`}
+                className="w-60 h-60 rounded-full object-cover mx-auto mb-6 border-4 border-bg-alt shadow-md bg-white"
+                src={`${import.meta.env.BASE_URL}/images/rj.png`}
                 alt="Rajitha Gunasekara"
                 title="Rajitha Gunasekara"
             />
@@ -31,7 +31,7 @@ export const Home = () => {
 
             <h2 className="text-muted text-lg font-bold max-w-lg mb-2 mx-auto">12+ Years Global IT Experience</h2>
 
-            <h3 className="text-drk-muted text-lg font-bold max-w-lg mb-8 mx-auto">&#8223;I connect business stakeholders and technical teams to deliver digital solutions."</h3>
+            <h3 className="text-drk-muted text-lg font-bold max-w-lg mb-8 mx-auto">Business Analyst Intern @ Hamilton City Council | SDA @ Wintec | MAIT | MBA | CMJD | ERP</h3>
 
         </div>
     </section>
