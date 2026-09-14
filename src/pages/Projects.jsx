@@ -32,7 +32,7 @@ export const Projects = () => {
                         </div>
 
                         <div className="rounded-xl bg-bg-alt border border-muted/30 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_2px_8px_rgba(60,103,158,0.2)] transition overflow-hidden flex flex-col">
-                            <a href={`${import.meta.env.BASE_URL}/images/hcc-poster-full.jpg`} target="_blank" rel="noopener noreferrer">
+                            <a href={`${import.meta.env.BASE_URL}/images/Poster for Networking Event.png`} target="_blank" rel="noopener noreferrer">
                                 <img
                                     src={`${import.meta.env.BASE_URL}/images/Poster for Networking Event.png`}
                                     alt="Protected Records Review poster — Hamilton City Council internship"

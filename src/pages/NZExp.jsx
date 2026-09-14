@@ -6,7 +6,7 @@ export const NZExp = () => {
     const experience = [
         {
             org: "Waikato Institute of Technology",
-            role: "Service Desk Agent — ITS",
+            role: "Service Desk Analyst — ITS",
             date: "Jan 2026 – Present · Hamilton",
             achievements: [
                 "Front-line ITSM support for 10,000+ users across desktop, network, and digital systems",
