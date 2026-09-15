@@ -55,7 +55,13 @@ export const Home = () => {
             <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-3xl font-bold text-accent mb-6">A Short Summary</h2>
                 <p className="text-drk-muted text-lg leading-relaxed">
-                I help businesses successfully implement and adopt digital solutions — backed by a Master of Applied IT and 12+ years of global experience, including current local government and tertiary sector roles in New Zealand. At Hamilton City Council, I identified 800+ data quality issues across 3,500+ records, built C# validation scripts, and presented findings via Power BI to Digital Services leadership. Internationally, I led the end-to-end delivery of a custom ERP system — from requirements elicitation through system-to-system integration and nearly a decade of ongoing support. Requirements Engineering is my craft; turning operational complexity into technical clarity is what I do best.
+                I've been drawn to technology since I was a kid — not just using it,
+                but understanding how it works, and staying curious about smarter, more efficient ways to get things done with tech.
+                That curiosity took me from eMarketing (where I taught myself HTML and CSS just to keep a website running) to developer,
+                to Business Analyst, to Project Manager, over 12+ years — marketer, developer, analyst, and PM, all in one career.
+                But what I care about most isn't the technology itself — it's the people using it.
+                I genuinely enjoy helping people adopt new systems and supporting the ones who struggle with tech,
+                because change is a lot easier when someone's willing to walk through it with you.
                 </p>
             </div>
         </RevealOnScroll>
