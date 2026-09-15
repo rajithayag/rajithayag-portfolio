@@ -17,8 +17,8 @@ export const About = () => {
                 "Tracked customer inquiries & feedback using HubSpot CRM",
             ],
             keyProjects: [
-                { name: "MGT Corporate Website (Custom Built)", desc: "Oversaw the end-to-end development and management of Mai Globe Travels' multilingual corporate website (English, French, German), hosted across three domains. Customized the Laravel-based CMS to support localized content and enhanced user engagement across regions" },
                 { name: "Baleen ERP System (Custom Built)", desc: "Led the development and implementation of an in-house ERP system tailored to the company's operations, significantly improving internal workflow efficiency and response time to customer inquiries" },
+                { name: "MGT Corporate Website (Custom Built)", desc: "Oversaw the end-to-end development and management of Mai Globe Travels' multilingual corporate website (English, French, German), hosted across three domains. Customized the Laravel-based CMS to support localized content and enhanced user engagement across regions" },
                 { name: "WordPress Web Projects (Templates + Custom CSS)", desc: "Managed and developed multiple WordPress-based websites, including Sayura House (boutique hotel), Poke 65, Latrattoria 65 (restaurants), and Authentic Lanka website, using advanced customization through plugins and custom CSS to meet branding and user experience requirements" },
                 { name: "MGT Internet Payment Gateway (Custom Built)", desc: "Managed the enhancement and ongoing maintenance of the company's internet payment gateway, ensuring secure and seamless online transactions through system-generated payment links" },
             ],
