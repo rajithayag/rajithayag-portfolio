@@ -9,7 +9,7 @@ export const NZExp = () => {
             role: "Service Desk Analyst — ITS",
             date: "Jan 2026 – Present · Hamilton",
             achievements: [
-                "Front-line ITSM support for 10,000+ users across desktop, network, and digital systems",
+                "Administer Microsoft 365 services — Active Directory, SharePoint, Teams and Exchange — for 10,000+ staff and students, managing user accounts, access controls and day-to-day platform support",
                 "Log, categorise, and analyse service requests in BrightPattern/Jira; surface incident trends to drive data-driven service improvements aligned with ITIL",
                 "Monitor incident queues, triage and escalate complex issues to maintain SLA compliance",
                 "Author and maintain IT knowledge base to reduce repeat ticket volumes and enable self-service resolution",
@@ -22,7 +22,7 @@ export const NZExp = () => {
             role: "Business Analyst Intern — Information Management & Compliance",
             date: "Aug 2025 – Nov 2025 · Hamilton",
             achievements: [
-                "Delivered core BA work in NZ local government: elicited requirements from Digital Services stakeholders and translated compliance needs into testable data quality specifications",
+                "Worked within Council's Information Management & Compliance team, gathering requirements from records-management and compliance stakeholders and translating regulatory and operational needs into documented process maps and specifications.",
                 "Analysed 3,500+ digital records across SharePoint, file systems, and web platforms",
                 "Developed Python (Pandas) and C# data validation scripts; identified 800+ data quality issues",
                 "Produced structured gap analysis reports and presented process improvement findings to Digital Services leadership",
